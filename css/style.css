@@ -1,0 +1,117 @@
+#form1 {
+  display: none;
+}
+
+* {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.sdg {
+  height: 18rem;
+  width: auto;
+}
+
+#boop {
+  margin-right: 25%;
+}
+
+#id {
+  text-decoration: none !important;
+}
+
+.par-border {
+  background-color: #f7d6bf;
+  color: #000000;
+  padding: 18px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  border: 0px;
+  text-decoration: none;
+}
+
+.par-border:hover {
+  text-decoration: none;
+  color:#000000;
+}
+.title-card {
+  position: absolute;
+  left: 0;
+  top: 47%;
+  width: 100%;
+  text-align: center;
+}
+
+.par-img{
+
+  background-image: url('../image/original.jpg');
+
+}
+
+.par-img-2{
+
+  background-image: url('../image/clothes.jpg');
+}
+
+.parallax {
+  position: relative;
+  opacity: 0.7;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h6 {
+  text-align: center;
+  color: #005086;
+  font-size: 160%;
+}
+
+h4 {
+  text-align: center;
+}
+
+
+#content {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+form {
+  width: 50%;
+  margin: 20px auto;
+}
+
+form div {
+  margin-top: 5px;
+}
+
+#img_div{
+    width: 50%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+   }
+
+#img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+
+  h4 {
+    text-align: center;
+  }
